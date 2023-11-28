@@ -32,8 +32,8 @@ fs.readdir(sourceDirectory, (err, files) => {
     }
   });
   async function main() {
-    const sourceDir = await ask('Enter the source directory path: ');
-    const targetDir = await ask('Enter the target directory path: ');
+    const sourceDirectory = await ask('Enter the source directory path: ');
+    const targetDirectory = await ask('Enter the target directory path: ');
   
     rl.close();
   
